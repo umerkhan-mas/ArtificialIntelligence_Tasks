@@ -6,13 +6,13 @@ import PathFinder
 
 arguments_length = len(sys.argv)
 
-# if(arguments_length < 3):
-#     raise Exception("Invalid number of arguments. Required : " + str(3) + ', Found: ' + str(arguments_length))
+if(arguments_length < 3):
+    raise Exception("Invalid number of arguments. Required : " + str(3) + ', Found: ' + str(arguments_length))
 
-# sys_AlgoType = sys.argv[1]
-# sys_HeuristicType = sys.argv[2]
-sys_AlgoType = 'A*'
-sys_HeuristicType = 'NUMBEROFTILES'
+sys_AlgoType = sys.argv[1]
+sys_HeuristicType = sys.argv[2]
+# sys_AlgoType = 'A*'
+# sys_HeuristicType = 'NUMBEROFTILES'
 
 frontier = Frontiers.Frontier()
 AlgorithmType = Enums.Algorithms.GREEDY

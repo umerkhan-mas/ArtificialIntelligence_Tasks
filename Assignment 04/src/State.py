@@ -43,10 +43,10 @@ class State:
                 if self.StateList[i][j] == value:
                     return (i,j)
 
+        raise Exception('Error: Cannot find position for: '+ str(value))
+
     def FindEmptyValueCoOrdinates(self):
         return self.FindValueCoOrdinates(self.EmptyValue)
-
-        raise Exception('Error: Cannot find an empty position: '+ str(self.EmptyValue))
 
     def SetEmptyCoOrdinates(self, position):
         self.EmptyCoOrdinates = position

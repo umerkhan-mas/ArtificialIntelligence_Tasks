@@ -1,0 +1,74 @@
+1 5 7
+3 6 2
+0 4 8
+
+1 5 7
+3 6 2
+4 0 8
+
+1 5 7
+3 0 2
+4 6 8
+
+1 0 7
+3 5 2
+4 6 8
+
+1 7 0
+3 5 2
+4 6 8
+
+1 7 2
+3 5 0
+4 6 8
+
+1 7 2
+3 0 5
+4 6 8
+
+1 0 2
+3 7 5
+4 6 8
+
+0 1 2
+3 7 5
+4 6 8
+
+3 1 2
+0 7 5
+4 6 8
+
+3 1 2
+4 7 5
+0 6 8
+
+3 1 2
+4 7 5
+6 0 8
+
+3 1 2
+4 0 5
+6 7 8
+
+3 1 2
+0 4 5
+6 7 8
+
+0 1 2
+3 4 5
+6 7 8
+
+The Algorithm is : Algorithms.GREEDY
+The Heuristic is : Heuristics.NUMBER_OF_TILES
+The Operations started at : 2018-11-19 13:37:44.766216
+The Operations ended at : 2018-11-19 13:38:37.595571
+The total time taken is : 0:00:52.829355
+Number of state transitions to goal : 15
+Total Number Of Frontier push : 5874
+Total Number Of Frontier pops : 3699
+Total Number Of Extensions : 10048
+Total Number Of Insertion Rejections : 4175
+Goal f(n) : 0
+Goal g(n) : 14
+Goal h(n) : 0
+
