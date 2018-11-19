@@ -22,7 +22,7 @@ class FrontierNode():
         self.Get_fn()
 
     def __eq__(self, other):
-        return self.CurrentState == other.CurrentState and self.Get_fn() == other.Get_fn()
+        return self.CurrentState == other.CurrentState and self.Get_fn() >= other.Get_fn()
 
     def __str__(self):
         return str(self.CurrentState)
