@@ -32,6 +32,10 @@ class PathFinder:
             print(node)
 
         Statistics.Instance.GoalPathLength = len(goalPath)
+        Statistics.Instance.GoalNodePathCost_fn = goalNode.Get_fn()
+        Statistics.Instance.GoalNodePathCost_gn = goalNode.Get_gn()
+        Statistics.Instance.GoalNodePathCost_hn = goalNode.Get_hn()
+
         print(str(Statistics.Instance))
 
 
